@@ -11,4 +11,10 @@ Amazon~Web Services.
 \newblock \url{http://aws.amazon.com/ec2/}.
 \newblock Online; accessed 30-March-2015.
 
+\bibitem{zadok2002}
+Erez Zadok.
+\newblock Overhauling amd for the'00s: A case study of gnu autotools.
+\newblock In {\em USENIX Annual Technical Conference, FREENIX Track}, pages
+  287--297, 2002.
+
 \end{thebibliography}
