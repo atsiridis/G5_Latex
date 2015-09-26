@@ -5,6 +5,7 @@
 \usepackage{url}
 \usepackage{graphicx} 
 \usepackage{placeins}
+\usepackage{listings}
 \addtolength{\oddsidemargin}{-.875in}
 \addtolength{\evensidemargin}{-.875in}
 \addtolength{\textwidth}{1.75in}
@@ -13,7 +14,52 @@
 \begin{document}
 \maketitle
 
-\nocite{*}
+\section{XML - XPointer}
+\subsection{Introduction}
+XPointer is a system that allows the cration of links that point to compontents of XML. It is divided among four specifications:
+\begin{enumerate}
+\item XPointer framework
+\item XPointer element() scheme
+\item XPointer xmlns() scheme
+\item XPointer xpointer() scheme
+\end{enumerate}
+The above points are going to be explained further to the subsections below. It is worth mentioning that XPointer Framework is a W3C recommendation since March 2003.
+
+\subsection{XPointer framework}
+
+The XPointer framework's specification defines the XML Pointer Language (XPointer), which is an extensible system for XML addressing and includes the XPointer schemes that mentioned in the introduction.
+
+This framework can be used as a specification for creating XML fragment identifiers for resources whose media type is one of text/xml, application/xml, text/xml-external-parsed-entity, or application/xml-external-parsed-entity. In addition, it is also encouraged to use this framework to define your own fragment identifier language. \cite{xpointerframework}
+
+\subsection{XPointer element() scheme}
+
+This kind of XPointer scheme is tend to be used to allow basic addressing of XML elements. Furthermore, the formal grammar for this scheme is given using simple EBNF (Extented Backus-Naur) notation as described in the XML Recommendation.\cite{elementscheme}
+
+\subsection{XPointer xmlns() scheme}
+
+The purpose of this scheme is to interpret the namespace prefixes in pointers correctly. For example, a developer can create his own namespaces and place them in an XML document and then use the xmlns() scheme to point to those namespaces. Just like the XPointer element() scheme, the formal grammar for the xmlns() scheme is given using simple EBNF notation, as described in the XML Recommendation.\cite{xmlnsscheme} 
+
+\subsection{XPointer xpointer() scheme}
+
+The role of this scheme in the whole XML XPointer philosophy is to address efficiently fragments of XML documents. In order to achieve this goal it uses the XPath and adds the ability to address strings, points and ranges. It supports addressing not only into the internal structures of XML documents but also to external parsed entities. Moreover, it allows the examination of a document's hierarchical structure and choice of portions based on various properties (i.e. element types, etc.). Another thing that I have to mention is the fact that, the xpointer() scheme's extensions to XPath provide the ability to identify locations that are not single, whole elements and combine string matching with the other location methods supplied.\cite{xpointerscheme}
+
+\subsection{XML XPointer in practice}
+
+There are two ways of linking a part of an XML document:
+\begin{itemize}
+\item We can simply add a number sign (\#) and an XPointer expression after the URL in the xlink:href attribute, as follows:
+xlink:href="http://dog.com/dogbreeds.xml\#xpointer(id('Rottweiler'))". The expression refers to the element in the target document, with the id value of "Rottweiler".
+\item XPointer also allows a shorthand method for linking to an element with an id. You can use the value of the id directly, like this: xlink:href="http://dog.com/dogbreeds.xml\#Rottweiler".
+\end{itemize}
+\begin{figure}[!htb]
+\centering
+  \includegraphics[width=.9\linewidth]{images/xpointerExample}
+  \caption{Example code of the two ways (modified version) \cite{W3CSchools}}
+  \label{fig:xpointerExample}
+\end{figure}
+\FloatBarrier
+
+
 \section{Overhauling Amd for the ’00s: A Case Study of GNU Autotools}
 \subsection{Introduction}
 As group 5 we were assigned to look at the above article and discuss it during the lecture. In the following section, I am going to discuss about the article and what information I believe is useful to grasp from the paper, and what I learned from it. First of all, I will break up the article in three parts:
@@ -77,6 +123,7 @@ By the use of autotools there are various benefits as well as a few disadvantage
 On the other side of the coin, autotools are not perfect and they have their disadvantages. Firstly, the developers need  to be well-trained and used to these tools. This procedure, of learning the tools, takes a significant amount of time as stated at the article, it took them 54 months to learn how to use autotools properly. Secondly, autotools are making the compilation significantly slower as stated in the article, it took three times more time to compile their package with autotools than the version that did not use autotools.
 
 In my opinion, autotools are useful to be learned by companies that produce a lot of software as the process of learning the autotools will provide them with less complex programs in the future. In addition, companies that provide long term packages will also be benefit by using those tools.
+\nocite{*}
 \bibliographystyle{plain}
 \bibliography{bibliography}
 

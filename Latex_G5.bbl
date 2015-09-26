@@ -1,15 +1,31 @@
 \begin{thebibliography}{1}
 
-\bibitem{brooks1991}
-Rodney~A Brooks.
-\newblock Intelligence without representation.
-\newblock {\em Artificial intelligence}, 47(1):139--159, 1991.
+\bibitem{xpointerscheme}
+Steve DeRose, Eve Maler, and Ron Daniel.
+\newblock Xpointer xpointer () scheme.
+\newblock {\em W3C Working Draft}, 19, 2002.
 
-\bibitem{EC2}
-Amazon~Web Services.
-\newblock Amazon ec2.
-\newblock \url{http://aws.amazon.com/ec2/}.
-\newblock Online; accessed 30-March-2015.
+\bibitem{xmlnsscheme}
+Steven~J DeRose, Ron Daniel~Jr, Eve Maler, and Jonathan Marsh.
+\newblock Xpointer xmlns () scheme.
+\newblock {\em W3C Recommendation}, 25, 2003.
+
+\bibitem{elementscheme}
+Paul Grosso, Eve Maler, Jonathan Marsh, and Norman Walsh.
+\newblock Xpointer element () scheme.
+\newblock {\em World Wide Web Consortium, Recommendation
+  REC-xptr-element-20030325}, 2003.
+
+\bibitem{xpointerframework}
+Paul Grosso, Eve Maler, Jonathan Marsh, and Norman Walsh.
+\newblock Xpointer framework.
+\newblock {\em W3c recommendation}, 25, 2003.
+
+\bibitem{W3CSchools}
+W3Scools.com.
+\newblock Xml, xlink and xpointer.
+\newblock \url{http://www.w3schools.com/xml/xml_xlink.asp}.
+\newblock Online; accessed 26-September-2015.
 
 \bibitem{zadok2002}
 Erez Zadok.
