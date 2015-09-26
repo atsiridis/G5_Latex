@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+
+\bibitem{brooks1991}
+Rodney~A Brooks.
+\newblock Intelligence without representation.
+\newblock {\em Artificial intelligence}, 47(1):139--159, 1991.
+
+\bibitem{EC2}
+Amazon~Web Services.
+\newblock Amazon ec2.
+\newblock \url{http://aws.amazon.com/ec2/}.
+\newblock Online; accessed 30-March-2015.
+
+\end{thebibliography}
