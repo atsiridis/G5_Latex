@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.9)  27 SEP 2015 12:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.9)  27 SEP 2015 12:38
 entering extended mode
 **Latex_G5.tex
 (C:\Users\Alex\Documents\UVA\G5_Latex\Latex_G5.tex
@@ -212,11 +212,7 @@ Package pdftex.def Info: images/measure3.png used on input line 137.
  [5 <C:/Users/Alex/Documents/UVA/G5_Latex/images/measure2.png> <C:/Users/Alex/D
 ocuments/UVA/G5_Latex/images/measure3.png>]
 (C:\Users\Alex\Documents\UVA\G5_Latex\Latex_G5.bbl [6]) [7]
-(C:\Users\Alex\Documents\UVA\G5_Latex\Latex_G5.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(C:\Users\Alex\Documents\UVA\G5_Latex\Latex_G5.aux) ) 
 Here is how much of TeX's memory you used:
  2515 strings out of 493705
  36704 string characters out of 3134498
@@ -225,17 +221,18 @@ Here is how much of TeX's memory you used:
  9325 words of font info for 33 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  27i,8n,32p,861b,252s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Program Files/SymMover/C/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmbx10.pfb><D:/Program Files/SymMover/C/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmbx12.pfb><D:/Program Files/SymMover/C/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files/SymMover/
-C/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program
- Files/SymMover/C/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17
-.pfb><D:/Program Files/SymMover/C/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><D:/Program Files/SymMover/C/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmti10.pfb><D:/Program Files/SymMover/C/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Latex_G5.pdf (7 pages, 257315 bytes).
+<D:/Program Files/SymMover
+/C/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Progr
+am Files/SymMover/C/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb><D:/Program Files/SymMover/C/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb><D:/Program Files/SymMover/C/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files/SymMover/C/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Program Files/SymMo
+ver/C/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Pr
+ogram Files/SymMover/C/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmti10.pfb><D:/Program Files/SymMover/C/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmtt10.pfb>
+Output written on Latex_G5.pdf (7 pages, 257434 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

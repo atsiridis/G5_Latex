@@ -147,7 +147,7 @@ By the use of \textbf{autotools} there are various benefits as well as a few dis
 
 On the other side of the coin, \textbf{autotools} are not perfect and they have their disadvantages. Firstly, the developers need  to be well-trained and used to these tools. This procedure, of learning the tools, takes a significant amount of time as stated at the article, it took them 54 months to learn how to use \textbf{autotools} properly. Secondly, \textbf{autotools} are making the compilation significantly slower as stated in the article, it took three times more time to compile their package with \textbf{autotools} than the version that did not use \textbf{autotools}. \textit{The result of the test performed on the article can be seen at the following table:}
 
-\begin{table}
+\begin{table}[!htb]
 \centering
 
 \begin{tabular}{|l|r|}
@@ -161,6 +161,7 @@ Compile Am-utils-6.0a1 & 73.1\\ \hline
 \caption{Time (seconds) to Configure and Build Amd Packages \cite{zadok2002}}
 \label{table:buildTest}
 \end{table}
+\FloatBarrier
 
 In my opinion, \textbf{autotools} are useful to be learned by companies that produce a lot of software as the process of learning the \textbf{autotools} will provide them with less complex programs in the future. In addition, companies that provide long term packages will also be benefit by using those tools.
 
