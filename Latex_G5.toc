@@ -5,6 +5,7 @@
 \contentsline {subsection}{\numberline {1.4}XPointer xmlns() scheme}{2}
 \contentsline {subsection}{\numberline {1.5}XPointer xpointer() scheme}{2}
 \contentsline {subsection}{\numberline {1.6}XML XPointer in practice}{2}
+\contentsline {subsection}{\numberline {1.7}XPointer VS XPath}{3}
 \contentsline {section}{\numberline {2}Overhauling Amd for the ’00s: A Case Study of GNU Autotools}{3}
 \contentsline {subsection}{\numberline {2.1}Introduction}{3}
 \contentsline {subsection}{\numberline {2.2}How the build was done before the autotools and what autotools have to offer}{3}
