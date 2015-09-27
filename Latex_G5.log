@@ -1,12 +1,20 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.26)  27 SEP 2015 22:27
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.9)  27 SEP 2015 22:22
+>>>>>>> origin/master
 entering extended mode
 **Latex_G5.tex
-(Latex_G5.tex
-LaTeX2e <2015/01/01> patch level 2
-Babel <3.9m> and hyphenation patterns for 69 languages loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+(C:\Users\Alex\Documents\UVA\G5_Latex\Latex_G5.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
+
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\latex\base\article.c
+ls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\latex\base\size11.cl
+o"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,35 +29,43 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\latex\graphics\graph
+icx.sty"
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\latex\graphics\keyva
+l.sty"
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\latex\graphics\graph
+ics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.
+sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\latex\00miktex\graph
+ics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdf
+tex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\generic\oberdiek\inf
+warerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltx
+cmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
@@ -57,10 +73,12 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\placeins\placeins.sty"
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\latex\placeins\place
+ins.sty"
 Package: placeins 2005/04/18  v 2.2
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\latex\listings\listi
+ngs.sty"
 \lst@mode=\count88
 \lst@gtempboxa=\box26
 \lst@token=\toks15
@@ -74,25 +92,29 @@ Package: placeins 2005/04/18  v 2.2
 \lst@lineno=\count93
 \lst@maxwidth=\dimen108
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\latex\listings\lstmi
+sc.sty"
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 \c@lstnumber=\count94
 \lst@skipnumbers=\count95
 \lst@framebox=\box27
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
-File: listings.cfg 2015/06/04 1.6 listings configuration
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\latex\listings\listi
+ngs.cfg"
+File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
-Package: listings 2015/06/04 1.6 (Carsten Heinz)
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\latex\graphics\color
+.sty"
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\latex\00miktex\color
+.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 142.
-) (Latex_G5.aux)
+Package color Info: Driver file: pdftex.def on input line 137.
+) (C:\Users\Alex\Documents\UVA\G5_Latex\Latex_G5.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
@@ -106,7 +128,8 @@ LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\context\base\supp-pd
+f.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count96
 \scratchdimen=\dimen109
@@ -127,7 +150,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 16.
- (Latex_G5.toc
+ (C:\Users\Alex\Documents\UVA\G5_Latex\Latex_G5.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 2.
 Missing character: There is no â in font cmbx10!
@@ -135,16 +158,24 @@ Missing character: There is no € in font cmbx10!
 Missing character: There is no ™ in font cmbx10!
 )
 \tf@toc=\write3
- (Latex_G5.lof)
+
+(C:\Users\Alex\Documents\UVA\G5_Latex\Latex_G5.lof)
 \tf@lof=\write4
- (Latex_G5.lot)
+
+(C:\Users\Alex\Documents\UVA\G5_Latex\Latex_G5.lot)
 \tf@lot=\write5
  [1
 
+<<<<<<< HEAD
 {C:/Users/stamatis/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
+=======
+{C:/Users/Alex/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
+>>>>>>> origin/master
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+("D:\Program Files\SymMover\C\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd
+"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
@@ -166,7 +197,7 @@ Package pdftex.def Info: images/xpointerExample.png used on input line 61.
 Missing character: There is no â in font cmbx12!
 Missing character: There is no € in font cmbx12!
 Missing character: There is no ™ in font cmbx12!
- [3 <./images/xpointerExample.png>]
+ [3 <C:/Users/Alex/Documents/UVA/G5_Latex/images/xpointerExample.png>]
 <images/measure1.png, id=21, 347.79938pt x 241.65282pt>
 File: images/measure1.png Graphic file (type png)
 
@@ -187,16 +218,20 @@ File: images/measure3.png Graphic file (type png)
 <use images/measure3.png>
 Package pdftex.def Info: images/measure3.png used on input line 140.
 (pdftex.def)             Requested size: 340.52925pt x 230.93329pt.
- [5 <./images/measure1.png> <./images/measure2.png>]
-[6 <./images/measure3.png>] (Latex_G5.bbl) [7] (Latex_G5.aux) ) 
+ [5 <C:/Users/Alex/Documents/UVA/G5_Latex/images/measure1.png> <C:/Users/Alex/D
+ocuments/UVA/G5_Latex/images/measure2.png>] [6 <C:/Users/Alex/Documents/UVA/G5_
+Latex/images/measure3.png>]
+(C:\Users\Alex\Documents\UVA\G5_Latex\Latex_G5.bbl) [7]
+(C:\Users\Alex\Documents\UVA\G5_Latex\Latex_G5.aux) ) 
 Here is how much of TeX's memory you used:
- 2515 strings out of 493673
- 35061 string characters out of 3143951
- 96347 words of memory out of 3000000
- 5859 multiletter control sequences out of 15000+200000
+ 2516 strings out of 493705
+ 36727 string characters out of 3134498
+ 96068 words of memory out of 3000000
+ 5833 multiletter control sequences out of 15000+200000
  9325 words of font info for 33 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  27i,8n,32p,861b,252s stack positions out of 5000i,500n,10000p,200000b,50000s
+<<<<<<< HEAD
 <C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -206,6 +241,20 @@ sfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 Output written on Latex_G5.pdf (7 pages, 257193 bytes).
+=======
+<D:/Program Files/SymMover
+/C/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Progr
+am Files/SymMover/C/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb><D:/Program Files/SymMover/C/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb><D:/Program Files/SymMover/C/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files/SymMover/C/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Program Files/SymMo
+ver/C/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Pr
+ogram Files/SymMover/C/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmti10.pfb><D:/Program Files/SymMover/C/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmtt10.pfb>
+Output written on Latex_G5.pdf (7 pages, 257182 bytes).
+>>>>>>> origin/master
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
