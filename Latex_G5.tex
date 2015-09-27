@@ -6,6 +6,7 @@
 \usepackage{graphicx} 
 \usepackage{placeins}
 \usepackage{listings}
+\usepackage{color}
 \addtolength{\oddsidemargin}{-.875in}
 \addtolength{\evensidemargin}{-.875in}
 \addtolength{\textwidth}{1.75in}
@@ -16,7 +17,7 @@
 
 \section{XML - XPointer}
 \subsection{Introduction}
-XPointer is a system that allows the cration of links that point to compontents of XML. It is divided among four specifications:
+XPointer is a system that allows the creation of links that point to components of XML. It is divided among four specifications:
 \begin{enumerate}
 \item XPointer framework
 \item XPointer element() scheme
@@ -48,8 +49,8 @@ The role of this scheme in the whole XML XPointer philosophy is to address effic
 There are two ways of linking a part of an XML document:
 \begin{itemize}
 \item We can simply add a number sign (\#) and an XPointer expression after the URL in the xlink:href attribute, as follows:
-xlink:href="http://dog.com/dogbreeds.xml\#xpointer(id('Rottweiler'))". The expression refers to the element in the target document, with the id value of "Rottweiler".
-\item XPointer also allows a shorthand method for linking to an element with an id. You can use the value of the id directly, like this: xlink:href="http://dog.com/dogbreeds.xml\#Rottweiler".
+\textcolor{cyan}{\textit{xlink:href="http://dog.com/dogbreeds.xml\#xpointer(id('Rottweiler'))"}}. The expression refers to the element in the target document, with the id value of \underline{"Rottweiler"}.
+\item XPointer also allows a shorthand method for linking to an element with an id. You can use the value of the id directly, like this: \textcolor{cyan}{\textit{xlink:href="http://dog.com/dogbreeds.xml\#Rottweiler"}}.
 \end{itemize}
 \begin{figure}[!htb]
 \centering
@@ -59,6 +60,23 @@ xlink:href="http://dog.com/dogbreeds.xml\#xpointer(id('Rottweiler'))". The expre
 \end{figure}
 \FloatBarrier
 
+\subsection{XPointer VS XPath}
+
+\begin{table}[!htb]
+\centering
+ \begin{tabular}{||c || c||} 
+ \hline
+ \textbf{XPointer} & \textbf{XPath}\\ [0.5ex] 
+ \hline
+ same expression & same expression\\ 
+ \hline
+ specifies the connections of URIs & says nothing about URIs \\
+ \hline
+ new features introduced & no available features \\
+ \hline
+\end{tabular}
+\end{table}
+\FloatBarrier
 
 \section{Overhauling Amd for the ’00s: A Case Study of GNU Autotools}
 \subsection{Introduction}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.26)  27 SEP 2015 00:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.26)  27 SEP 2015 12:23
 entering extended mode
 **Latex_G5.tex
 (Latex_G5.tex
@@ -84,19 +84,28 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
- (Latex_G5.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+) (Latex_G5.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count96
@@ -113,75 +122,82 @@ LaTeX Font Info:    ... okay on input line 14.
 )
 \c@lstlisting=\count102
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 15.
+(Font)              <12> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 15.
+(Font)              <8> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 15.
+(Font)              <6> on input line 16.
  [1
 
 {C:/Users/stamatis/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 50.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 51.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 52.
+
+Overfull \hbox (1.8201pt too wide) in paragraph at lines 51--53
+\OT1/cmr/m/n/10.95 at-tribute, as fol-lows: []\OT1/cmr/m/it/10.95 xlink:href="h
+ttp://dog.com/dogbreeds.xml#xpointer(id('Rottweiler'))"[]\OT1/cmr/m/n/10.95 . T
+he
+ []
 
 <images/xpointerExample.png, id=9, 853.68938pt x 492.33937pt>
 File: images/xpointerExample.png Graphic file (type png)
 
 <use images/xpointerExample.png>
-Package pdftex.def Info: images/xpointerExample.png used on input line 56.
+Package pdftex.def Info: images/xpointerExample.png used on input line 57.
 (pdftex.def)             Requested size: 437.82227pt x 252.5096pt.
+ [2 <./images/xpointerExample.png>]
 Missing character: There is no â in font cmbx12!
 Missing character: There is no € in font cmbx12!
 Missing character: There is no ™ in font cmbx12!
- [2 <./images/xpointerExample.png>]
-<images/measure1.png, id=16, 347.79938pt x 241.65282pt>
+
+<images/measure1.png, id=17, 347.79938pt x 241.65282pt>
 File: images/measure1.png Graphic file (type png)
 
 <use images/measure1.png>
-Package pdftex.def Info: images/measure1.png used on input line 92.
+Package pdftex.def Info: images/measure1.png used on input line 110.
 (pdftex.def)             Requested size: 340.52925pt x 236.61165pt.
  [3]
-<images/measure2.png, id=20, 359.09157pt x 235.63031pt>
+<images/measure2.png, id=22, 359.09157pt x 235.63031pt>
 File: images/measure2.png Graphic file (type png)
 
 <use images/measure2.png>
-Package pdftex.def Info: images/measure2.png used on input line 102.
+Package pdftex.def Info: images/measure2.png used on input line 120.
 (pdftex.def)             Requested size: 340.52925pt x 223.4664pt.
 
-<images/measure3.png, id=21, 350.81062pt x 237.88875pt>
+<images/measure3.png, id=23, 350.81062pt x 237.88875pt>
 File: images/measure3.png Graphic file (type png)
 
 <use images/measure3.png>
-Package pdftex.def Info: images/measure3.png used on input line 112.
+Package pdftex.def Info: images/measure3.png used on input line 130.
 (pdftex.def)             Requested size: 340.52925pt x 230.93329pt.
  [4 <./images/measure1.png> <./images/measure2.png>]
-(Latex_G5.bbl [5 <./images/measure3.png>]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 27.
-) [6] (Latex_G5.aux) ) 
+(Latex_G5.bbl [5 <./images/measure3.png>]) [6] (Latex_G5.aux) ) 
 Here is how much of TeX's memory you used:
- 2458 strings out of 493673
- 34228 string characters out of 3143951
- 94240 words of memory out of 3000000
- 5816 multiletter control sequences out of 15000+200000
- 9017 words of font info for 32 fonts, out of 3000000 for 9000
+ 2503 strings out of 493673
+ 34931 string characters out of 3143951
+ 96331 words of memory out of 3000000
+ 5856 multiletter control sequences out of 15000+200000
+ 9325 words of font info for 33 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,6n,32p,808b,296s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Latex_G5.pdf (6 pages, 237042 bytes).
+ 27i,8n,32p,808b,252s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Latex_G5.pdf (6 pages, 248593 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
