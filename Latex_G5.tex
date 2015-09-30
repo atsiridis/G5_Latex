@@ -5,8 +5,9 @@
 \usepackage{url}
 \usepackage{graphicx} 
 \usepackage{placeins}
-\usepackage{listings}
 \usepackage{color}
+\usepackage{listings}
+\usepackage{minted}
 \addtolength{\oddsidemargin}{-.875in}
 \addtolength{\evensidemargin}{-.875in}
 \addtolength{\textwidth}{1.75in}
@@ -17,6 +18,84 @@
 \tableofcontents
 \listoffigures
 \listoftables
+\newpage
+
+\section{XML RPC}
+\author{Andrey Afanasyev}
+\subsection{Introduction}
+
+Remote Procedure Call - allows a program to call a procedure or a subroutine to execute in an another address space using communication protocols. (RPC goes back to 1980s at ARBANET documents and the first business uses of RPC was by Xerox under the name "Courier" in 1981)
+
+The XML-RPC was developed by Dave Winner in 1998. He was an employee by UserLand Software that was collaborating with Microsoft.
+ 
+The XML-RPC communication is used in Software-as-a-Service application and various Web applications. The XML-RPC libraries exist in many programming languages such as Python, C/C++, Java, PHP and etcetera.The developed technology was a progenitor of SOAP.
+
+\subsection{Communication}
+
+When a client wants to call a procedure or a subroutine he initiates an HTTP request to the server and uses XML to encode the method that it wants to call along with the parameters that it needs. The response from the server uses HTTP as the communication protocol and XML to encode the results of the method that was called.
+
+XML-RPC uses XML to encode calls and HTTP as a transport
+mechanism.
+
+\begin{minted}[fontsize=\tiny]{xml}
+POST /RPC2 HTTP/1.0
+User-Agent: Frontier/5.1.2 (WinNT)
+Host: betty.userland.com
+Content-Type: text/xml
+Content-length: 181
+        
+<?xml version="1.0"?>
+<methodCall>
+   <methodName>examples.getStateName</methodName>
+   <params>
+      <param>
+         <value>
+            <i4>41</i4></value>
+     </param>
+  </params>
+ </methodCall>
+  \end{minted}
+
+ Response
+ \begin{minted}[fontsize=\tiny]{xml}
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 158
+Content-Type: text/xml
+Date: Fri, 17 Jul 1998 19:55:08 GMT
+Server: UserLand Frontier/5.1.2-WinNT
+        
+<?xml version="1.0"?>
+<methodResponse>
+   <params>
+      <param>
+         <value><string>South Dakota</string></value>
+     </param>
+   </params>
+</methodResponse>
+ \end{minted}
+
+\subsection{Advantages and Criticisms}
+
+Advantages 
+\begin{itemize}
+\item XML-RPC is simpler and easier than SOAP due one method of encoding;
+\item By using HTTPS requests and responses between clients and servers could be encrypted and authenticated.
+\item XML-RPC  allows the user to use the programming language that they feel confident  with by the use of libraries
+\end{itemize}
+
+Criticisms
+\begin{enumerate}
+\item RPC calls can be made with plain XML; 
+
+\item XML-RPC does not add any value over XML; 
+
+\item XML-RPC 4 times bigger in byte size compared to plain XML
+\end{enumerate}
+
+
+
+
 
 \section{XML - XPointer}
 \author{Stamatis Maritsas}
@@ -58,7 +137,7 @@ There are two ways of linking a part of an XML document:
 \end{itemize}
 \begin{figure}[!htb]
 \centering
-  \includegraphics[width=.9\linewidth]{images/xpointerExample}
+  \includegraphics[width=0.9\textwidth,natwidth=610,natheight=642]{images/xpointerExample.png}
   \caption{Example code of the two ways (modified version) \cite{W3CSchools}}
   \label{fig:xpointerExample}
 \end{figure}
@@ -118,7 +197,7 @@ The first measurement will obviously make the biggest package the most complex. 
 
 \begin{figure}[!htb]
 \centering
-  \includegraphics[width=.7\linewidth]{images/measure1}
+  \includegraphics[width=.7\textwidth,natwidth=610,natheight=642]{images/measure1.png}
   \caption{Average size of packages in thousands of lines of
 code \cite{zadok2002}}
   \label{fig:measure1}
@@ -128,7 +207,7 @@ The second measurement its a bit more accurate than the way discussed above. It 
 
 \begin{figure}[!htb]
 \centering
-  \includegraphics[width=.7\linewidth]{images/measure2}
+  \includegraphics[width=0.7\textwidth,natwidth=610,natheight=642]{images/measure2.png}
   \caption{Average number of \textcolor{red}{CPP} conditionals per package \cite{zadok2002}}
   \label{fig:measure2}
 \end{figure}
@@ -138,7 +217,7 @@ The third measurement in my opinion, is better than the above two as it actually
 
 \begin{figure}[!htb]
 \centering
-  \includegraphics[width=.7\linewidth]{images/measure3}
+  \includegraphics[width=.7\textwidth,natwidth=610,natheight=642]{images/measure3.png}
   \caption{Average number of \textcolor{red}{CPP} conditionals per 1000 lines
 of code \cite{zadok2002}}
   \label{fig:measure3}
