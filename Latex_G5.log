@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.24)  2 OCT 2015 00:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.24)  2 OCT 2015 00:10
 entering extended mode
 **Latex_G5.tex
 (C:\Users\Andrey\Documents\GitHub\G5_Latex\Latex_G5.tex
@@ -160,16 +160,8 @@ Missing character: There is no ™ in font cmbx10!
  [1
 
 {C:/Users/Andrey/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-
-LaTeX Warning: Citation `XML-RPC-WIKI' on page 2 undefined on input line 27.
-
-
-LaTeX Warning: Citation `XML-RPC-tldp' on page 2 undefined on input line 35.
-
-
-LaTeX Warning: Citation `XML-RPC-specs' on page 2 undefined on input line 38.
-
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 49.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
@@ -225,14 +217,7 @@ Package pdftex.def Info: images/measure3.png used on input line 224.
 ndrey/Documents/GitHub/G5_Latex/images/measure2.png>]
 [8 <C:/Users/Andrey/Documents/GitHub/G5_Latex/images/measure3.png>]
 (C:\Users\Andrey\Documents\GitHub\G5_Latex\Latex_G5.bbl) [9]
-(C:\Users\Andrey\Documents\GitHub\G5_Latex\Latex_G5.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(C:\Users\Andrey\Documents\GitHub\G5_Latex\Latex_G5.aux) ) 
 Here is how much of TeX's memory you used:
  2645 strings out of 493921
  37847 string characters out of 3147278
@@ -241,16 +226,16 @@ Here is how much of TeX's memory you used:
  9325 words of font info for 33 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,8n,49p,861b,1212s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt1
-0.pfb>
-Output written on Latex_G5.pdf (9 pages, 274473 bytes).
+<C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Latex_G5.pdf (9 pages, 274228 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
