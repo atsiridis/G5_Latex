@@ -7,7 +7,7 @@
 \usepackage{placeins}
 \usepackage{color}
 \usepackage{listings}
-\usepackage{minted}
+\lstset{language=XML} 
 \addtolength{\oddsidemargin}{-.875in}
 \addtolength{\evensidemargin}{-.875in}
 \addtolength{\textwidth}{1.75in}
@@ -24,7 +24,7 @@
 \author{Andrey Afanasyev}
 \subsection{Introduction}
 
-Remote Procedure Call - allows a program to call a procedure or a subroutine to execute in an another address space using communication protocols. (RPC goes back to 1980s at ARBANET documents and the first business uses of RPC was by Xerox under the name "Courier" in 1981)
+Remote Procedure Call - allows a program to call a procedure or a subroutine to execute in an another address space using communication protocols. (RPC goes back to 1980s at ARBANET documents and the first business uses of RPC was by Xerox under the name "Courier" in 1981)\cite{XML-RPC-WIKI}
 
 The XML-RPC was developed by Dave Winner in 1998. He was an employee by UserLand Software that was collaborating with Microsoft.
  
@@ -32,12 +32,14 @@ The XML-RPC communication is used in Software-as-a-Service application and vario
 
 \subsection{Communication}
 
-When a client wants to call a procedure or a subroutine he initiates an HTTP request to the server and uses XML to encode the method that it wants to call along with the parameters that it needs. The response from the server uses HTTP as the communication protocol and XML to encode the results of the method that was called.
+When a client wants to call a procedure or a subroutine he initiates an HTTP request to the server and uses XML to encode the method that it wants to call along with the parameters that it needs. The response from the server uses HTTP as the communication protocol and XML to encode the results of the method that was called.\cite{XML-RPC-tldp}
 
 XML-RPC uses XML to encode calls and HTTP as a transport
-mechanism.
+mechanism.\cite{XML-RPC-specs}
 
-\begin{minted}[fontsize=\tiny]{xml}
+
+Request
+\begin{lstlisting}[frame=single]
 POST /RPC2 HTTP/1.0
 User-Agent: Frontier/5.1.2 (WinNT)
 Host: betty.userland.com
@@ -54,10 +56,11 @@ Content-length: 181
      </param>
   </params>
  </methodCall>
-  \end{minted}
+\end{lstlisting}
 
+\newpage
  Response
- \begin{minted}[fontsize=\tiny]{xml}
+\begin{lstlisting}[frame=single]
 HTTP/1.1 200 OK
 Connection: close
 Content-Length: 158
@@ -73,7 +76,7 @@ Server: UserLand Frontier/5.1.2-WinNT
      </param>
    </params>
 </methodResponse>
- \end{minted}
+\end{lstlisting}
 
 \subsection{Advantages and Criticisms}
 
@@ -96,7 +99,7 @@ Criticisms
 
 
 
-
+\newpage
 \section{XML - XPointer}
 \author{Stamatis Maritsas}
 \subsection{Introduction}
@@ -163,6 +166,7 @@ There are two ways of linking a part of an XML document:
 \end{table}
 \FloatBarrier
 
+\newpage
 \section{Overhauling Amd for the ’00s: A Case Study of GNU Autotools}
 \author{Alexadros Tsiridis}
 

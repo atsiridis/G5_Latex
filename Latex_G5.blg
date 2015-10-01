@@ -1,7 +1,16 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Latex_G5.aux
 The style file: plain.bst
 Database file #1: bibliography.bib
-Warning--entry type for "W3CSchools" isn't style-file defined
+Warning--entry type for "XML-RPC-WIKI" isn't style-file defined
+--line 1 of file bibliography.bib
+Warning--entry type for "XML-RPC-tldp" isn't style-file defined
 --line 8 of file bibliography.bib
-Warning--I didn't find a database entry for "xmlnscheme"
-(There were 2 warnings)
+Warning--entry type for "XML-RPC-specs" isn't style-file defined
+--line 15 of file bibliography.bib
+Warning--entry type for "W3CSchools" isn't style-file defined
+--line 25 of file bibliography.bib
+Repeated entry---line 39 of file bibliography.bib
+ : @online{W3CSchools
+ :                   ,
+I'm skipping whatever remains of this entry
+(There was 1 error message)
